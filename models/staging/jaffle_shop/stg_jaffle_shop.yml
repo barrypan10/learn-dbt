@@ -7,7 +7,6 @@ models:
         tests:
           - unique
           - not_null
-
   - name: stg_orders
     columns: 
       - name: status
@@ -18,3 +17,4 @@ models:
                 - shipped
                 - returned
                 - placed
+                - return_pending
