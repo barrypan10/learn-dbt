@@ -21,7 +21,7 @@ orders as (
         order_date,
         status
 
-    from dbt-tutorial.jaffle_shop.customers
+    from dbt-tutorial.jaffle_shop.orderss
 
 ),
 
